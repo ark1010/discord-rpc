@@ -47,6 +47,7 @@ typedef struct DiscordUser {
     const char* username;
     const char* discriminator;
     const char* avatar;
+    const char* globalName;
 } DiscordUser;
 
 typedef struct DiscordEventHandlers {
